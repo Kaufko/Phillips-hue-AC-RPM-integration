@@ -24,20 +24,19 @@ namespace HueApi.Entertainment.ConsoleSample
         public static string ConvertRpmToHexGradient(float currentRpm, float maxRpm)
         {
             if (maxRpm <= 0)
-                throw new ArgumentException("Max RPM must be greater than zero. Don't spin me like that.");
+                throw new ArgumentException("Max RPM must be greater than zero.");
 
             float percent = Math.Clamp(currentRpm / maxRpm, 0f, 1f);
 
-            // Define gradient stops
-            if (percent <= 0.2f) // 0–20%: Black to Green
+            if (percent <= 0.2f)
                 return LerpColor("#000000", "#00FF00", percent / 0.2f);
-            else if (percent <= 0.5f) // 20–50%: Green to Yellow
+            else if (percent <= 0.5f)
                 return LerpColor("#00FF00", "#FFFF00", (percent - 0.2f) / 0.3f);
-            else if (percent <= 0.75f) // 50–75%: Yellow to Orange
+            else if (percent <= 0.75f)
                 return LerpColor("#FFFF00", "#FFA500", (percent - 0.5f) / 0.25f);
-            else if (percent <= 0.85f) // 75–85%: Orange to Red
+            else if (percent <= 0.95f)
                 return LerpColor("#FFA500", "#FF0000", (percent - 0.75f) / 0.1f);
-            else // 85–100%: Just straight red
+            else 
                 return "#FF0000";
         }
 
