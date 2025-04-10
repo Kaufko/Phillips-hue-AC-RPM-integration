@@ -1,0 +1,20 @@
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.GeneratedMSBuildEditorConfig.editorconfig
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.AssemblyInfoInputs.cache
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.AssemblyInfo.cs
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.csproj.CoreCompileInputs.cache
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\Ac corsa hue.exe
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\Ac corsa hue.deps.json
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\Ac corsa hue.runtimeconfig.json
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\Ac corsa hue.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\Ac corsa hue.pdb
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\HueApi.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\HueApi.ColorConverters.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\HueApi.Entertainment.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\bin\Debug\net9.0\BouncyCastle.Crypto.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.csproj.AssemblyReference.cache
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa.3BC0A0F4.Up2Date
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\refint\Ac corsa hue.dll
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.pdb
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\Ac corsa hue.genruntimeconfig.cache
+G:\Documents\Programming\C#\DotNet\MenuLib\Demo\Ac corsa hue\obj\Debug\net9.0\ref\Ac corsa hue.dll

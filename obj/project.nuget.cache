@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dpJY0QqwGrU=",
+  "success": true,
+  "projectFilePath": "G:\\Documents\\Programming\\C#\\DotNet\\MenuLib\\Demo\\Ac corsa hue\\Ac corsa hue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaufko\\.nuget\\packages\\hueapi\\1.8.0\\hueapi.1.8.0.nupkg.sha512",
+    "C:\\Users\\Kaufko\\.nuget\\packages\\hueapi.colorconverters\\1.7.1\\hueapi.colorconverters.1.7.1.nupkg.sha512",
+    "C:\\Users\\Kaufko\\.nuget\\packages\\hueapi.entertainment\\1.7.0\\hueapi.entertainment.1.7.0.nupkg.sha512",
+    "C:\\Users\\Kaufko\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

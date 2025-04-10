@@ -1,0 +1,196 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "HueApi/1.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/HueApi.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/HueApi.dll": {}
+        }
+      },
+      "HueApi.ColorConverters/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "HueApi": "1.7.0"
+        },
+        "compile": {
+          "lib/net9.0/HueApi.ColorConverters.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/HueApi.ColorConverters.dll": {}
+        }
+      },
+      "HueApi.Entertainment/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "HueApi": "1.7.0",
+          "HueApi.ColorConverters": "1.7.0",
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "compile": {
+          "lib/net9.0/HueApi.Entertainment.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/HueApi.Entertainment.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HueApi/1.8.0": {
+      "sha512": "XzWP76dcCDUpVh/Z/TaGzOP3qk5QPC578gUCC5U/CN859w+uc5RlUKBxDIGmVK7eNvuxvXrp9069t+MEddhnrQ==",
+      "type": "package",
+      "path": "hueapi/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hueapi.1.8.0.nupkg.sha512",
+        "hueapi.nuspec",
+        "lib/net8.0/HueApi.dll",
+        "lib/net9.0/HueApi.dll"
+      ]
+    },
+    "HueApi.ColorConverters/1.7.1": {
+      "sha512": "P+yj00MJxyjyEfrz0GQBmYE9EXTnCXHiv4Vh4WmDS96Q77j7bvMPtDmcr8je/9zaaXw28a2n6a3xgXUM9HgFtQ==",
+      "type": "package",
+      "path": "hueapi.colorconverters/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hueapi.colorconverters.1.7.1.nupkg.sha512",
+        "hueapi.colorconverters.nuspec",
+        "lib/net8.0/HueApi.ColorConverters.dll",
+        "lib/net9.0/HueApi.ColorConverters.dll"
+      ]
+    },
+    "HueApi.Entertainment/1.7.0": {
+      "sha512": "RIbttCuz9VvFzGlKrdSZl7Ud9NHalMQGH7iWbTebPSRSVm6oew7Ytxf+KFbjucNQCMd7MOCPdOvoQ4npjZDoGQ==",
+      "type": "package",
+      "path": "hueapi.entertainment/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hueapi.entertainment.1.7.0.nupkg.sha512",
+        "hueapi.entertainment.nuspec",
+        "lib/net8.0/HueApi.Entertainment.dll",
+        "lib/net9.0/HueApi.Entertainment.dll"
+      ]
+    },
+    "Portable.BouncyCastle/1.9.0": {
+      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.9.0.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "HueApi >= 1.8.0",
+      "HueApi.ColorConverters >= 1.7.1",
+      "HueApi.Entertainment >= 1.7.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kaufko\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Documents\\Programming\\C#\\DotNet\\MenuLib\\Demo\\Ac corsa hue\\Ac corsa hue.csproj",
+      "projectName": "Ac corsa hue",
+      "projectPath": "G:\\Documents\\Programming\\C#\\DotNet\\MenuLib\\Demo\\Ac corsa hue\\Ac corsa hue.csproj",
+      "packagesPath": "C:\\Users\\Kaufko\\.nuget\\packages\\",
+      "outputPath": "G:\\Documents\\Programming\\C#\\DotNet\\MenuLib\\Demo\\Ac corsa hue\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Kaufko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "HueApi": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "HueApi.ColorConverters": {
+            "target": "Package",
+            "version": "[1.7.1, )"
+          },
+          "HueApi.Entertainment": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

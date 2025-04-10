@@ -1,0 +1,96 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Ac corsa hue/1.0.0": {
+        "dependencies": {
+          "HueApi": "1.8.0",
+          "HueApi.ColorConverters": "1.7.1",
+          "HueApi.Entertainment": "1.7.0"
+        },
+        "runtime": {
+          "Ac corsa hue.dll": {}
+        }
+      },
+      "HueApi/1.8.0": {
+        "runtime": {
+          "lib/net9.0/HueApi.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "HueApi.ColorConverters/1.7.1": {
+        "dependencies": {
+          "HueApi": "1.8.0"
+        },
+        "runtime": {
+          "lib/net9.0/HueApi.ColorConverters.dll": {
+            "assemblyVersion": "1.7.1.0",
+            "fileVersion": "1.7.1.0"
+          }
+        }
+      },
+      "HueApi.Entertainment/1.7.0": {
+        "dependencies": {
+          "HueApi": "1.8.0",
+          "HueApi.ColorConverters": "1.7.1",
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "runtime": {
+          "lib/net9.0/HueApi.Entertainment.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ac corsa hue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HueApi/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XzWP76dcCDUpVh/Z/TaGzOP3qk5QPC578gUCC5U/CN859w+uc5RlUKBxDIGmVK7eNvuxvXrp9069t+MEddhnrQ==",
+      "path": "hueapi/1.8.0",
+      "hashPath": "hueapi.1.8.0.nupkg.sha512"
+    },
+    "HueApi.ColorConverters/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P+yj00MJxyjyEfrz0GQBmYE9EXTnCXHiv4Vh4WmDS96Q77j7bvMPtDmcr8je/9zaaXw28a2n6a3xgXUM9HgFtQ==",
+      "path": "hueapi.colorconverters/1.7.1",
+      "hashPath": "hueapi.colorconverters.1.7.1.nupkg.sha512"
+    },
+    "HueApi.Entertainment/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RIbttCuz9VvFzGlKrdSZl7Ud9NHalMQGH7iWbTebPSRSVm6oew7Ytxf+KFbjucNQCMd7MOCPdOvoQ4npjZDoGQ==",
+      "path": "hueapi.entertainment/1.7.0",
+      "hashPath": "hueapi.entertainment.1.7.0.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+    }
+  }
+}
